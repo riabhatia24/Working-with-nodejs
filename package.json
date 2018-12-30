@@ -4,8 +4,8 @@
   "description": "Practise concepts of Nodejs",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", 
-    "start": "node app.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/riabhatia24/Working-with-nodejs/issues"
   },
-  "homepage": "https://github.com/riabhatia24/Working-with-nodejs#readme"
+  "homepage": "https://github.com/riabhatia24/Working-with-nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  }
 }
